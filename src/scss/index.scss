@@ -2,6 +2,10 @@
 @import 'colors';
 
 @import '../components/home/Home';
+@import '../components/facts/Facts';
+@import '../components/makeup/Makeup';
+@import '../components/quiz/Quiz';
+
 @import '../components/footer/Footer';
 
 @import url('https://rsms.me/inter/inter.css');
@@ -14,6 +18,13 @@ body {
   scroll-behavior: smooth;
   background: $base;
   color: $main;
+}
+
+.layout-container {
+  margin: 0 auto;
+  max-width: 1060px;
+  padding: 0 1.0875rem 1.45rem;
+
 }
 
 button {
@@ -69,4 +80,9 @@ button {
       }
     }
   }
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 700;
 }

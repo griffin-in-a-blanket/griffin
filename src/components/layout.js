@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
           maxWidth: 10600,
           padding: `0 1.0875rem 1.45rem`,
         }}
+        className="layout-container"
       >
         <main>{children}</main>
         <Footer />
