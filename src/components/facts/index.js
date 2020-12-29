@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import griffin from '../../images/griffin-2.jpg'
 
-
-export default function Facts() {
-  return (
-    <div className="facts-container">
-      <div className="title">Fun Griffin Facts</div>
+export default class index extends Component {
+  render() {
+    return (
+      <div className="facts-container">
+      <div className="title">Will I like Griffin?</div>
+      <div className="subtitle">Let's find out! What's your ideal cat companion?</div>
       <div className="facts">
         <div>Hypoallergenic</div>
         <div>Needy & food driven</div>
@@ -30,5 +31,7 @@ export default function Facts() {
         #8abca2      
       `}>Go here for more fun</AniLink>
     </div>
-  )
+    )
+  }
 }
+
