@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+import griffin from '../../images/griffin-2.jpg'
 
 
 export default function Facts() {
@@ -14,7 +16,19 @@ export default function Facts() {
         <div>Has cat asthma</div>
         <div>Meows for food and then doesn't eat it and walk away</div>
       </div>
-      <Link to="/quiz">Go here for more fun</Link>
+      <AniLink  cover
+      to={"/quiz"}
+      direction="up"
+      duration={2}
+      bg={`
+        url(${griffin})
+        center / contain 
+        no-repeat        
+        fixed            
+        padding-box      
+        content-box      
+        #8abca2      
+      `}>Go here for more fun</AniLink>
     </div>
   )
 }

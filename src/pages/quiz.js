@@ -9,7 +9,6 @@ const QuizPage = () => (
   <Layout>
     <SEO title="Here's a quiz for no reason" />
     <Quiz />
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
