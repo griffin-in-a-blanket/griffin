@@ -28,7 +28,7 @@ export default function Makeup() {
         #8abca2      
       `}
       >
-        <a className="learn-more">Griffin Facts</a>
+        Griffin Facts
       </AniLink>
     </div>
   )

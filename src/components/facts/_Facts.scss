@@ -4,4 +4,35 @@
   justify-content: center;
   flex-direction: column;
   padding: 100px 0;
+
+  .traits-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+
+    .trait {
+      padding: 15px 30px;
+      margin: 10px;
+      background: rgba(255, 255, 255, 0.35);
+      border-radius: 7.5px;
+      transition: all 0.2s ease-in;
+      color: $main;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.55);
+      }
+    }
+  }
+  .btn {
+    padding: 15px 30px;
+    border-radius: 7.5px;
+    color: #fff;
+    background: $accent;
+  }
+
+  .result {
+    margin: 40px 0;
+  }
 }

@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home-container">
       <div className="title">It's a website about Griffin!</div>
       <img className="home-image" alt="it's griffin the cat" src={raccoon} />
-      <div className="subtitle">He's a cat, I think 🤔</div>
+      <div className="subtitle">He's a cat, I think <span role="img" aria-label="thinking-emoji">🤔</span></div>
       <AniLink 
       cover
       to={"/makeup"}
