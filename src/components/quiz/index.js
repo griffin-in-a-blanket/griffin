@@ -23,7 +23,7 @@ export default function Quiz() {
         #8abca2      
       `}
       >
-        <a className="learn-more">Start this journey over</a>
+        Start this journey over
       </AniLink>
     </div>
   )
