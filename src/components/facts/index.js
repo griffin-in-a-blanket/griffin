@@ -99,6 +99,7 @@ export default class index extends Component {
       </AniLink>
       <span role="img" aria-label="index-pointing-down- emoji"> 👇</span>
       </div>
+
     </div>
     )
   }

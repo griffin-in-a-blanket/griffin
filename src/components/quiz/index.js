@@ -5,8 +5,6 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import griffin from '../../images/griffin-3.jpg'
 import {questions} from '../constants'
 
-
-
 export default class index extends Component {
   constructor() {
     super() 
