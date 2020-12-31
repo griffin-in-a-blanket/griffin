@@ -5,7 +5,6 @@ const Griffin = () => {
   const rPupil = document.querySelector('.r-pupil')
   const lPupil = document.querySelector('.l-pupil')
 
-  console.log(rEye)
   if (rEye) {
     const px = rPupil.getBoundingClientRect().width
     const py = rPupil.getBoundingClientRect().height
