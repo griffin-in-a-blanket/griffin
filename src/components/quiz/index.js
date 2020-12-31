@@ -4,7 +4,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import griffin from '../../images/griffin-3.jpg'
 import {questions} from '../constants'
-
+import {start} from '../../utils'
 
 
 export default class index extends Component {
@@ -108,6 +108,7 @@ export default class index extends Component {
         to={"/"}
         direction="left"
         duration={2}
+        onClick={start}
         bg={`
           url(${griffin})
           center / contain 

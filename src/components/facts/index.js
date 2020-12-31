@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import {answer, griffinTraits, traits} from '../constants';
+import {start} from '../../utils'
 import griffin from '../../images/griffin-2.jpg'
 
 export default class index extends Component {
@@ -64,7 +65,7 @@ export default class index extends Component {
           </button>
         ))}
       </div>
-      <button className="btn" onClick={()=> {this.handleSubmit()}}>Submit</button>
+      <button className="btn learn-more" onClick={()=> {this.handleSubmit()}}>Submit</button>
       {submit ? 
         <div className="result">
           <div className="subtitle">
@@ -82,6 +83,7 @@ export default class index extends Component {
         to={"/quiz"}
         direction="down"
         duration={2}
+        onClick={start}
         bg= 
           {`
             url(${griffin})

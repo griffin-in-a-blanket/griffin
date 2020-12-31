@@ -2,6 +2,7 @@ import React from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import griffin from '../../images/griffin-1.jpg'
+import {start} from '../../utils'
 
 export default function Makeup() {
   return (
@@ -20,6 +21,7 @@ export default function Makeup() {
       to={"/facts"}
       direction="left"
       duration={2}
+      onClick={start}
       bg={`
         url(${griffin})
         center / contain 
