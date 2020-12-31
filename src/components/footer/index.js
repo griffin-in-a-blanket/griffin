@@ -5,7 +5,7 @@ export default function index() {
     <footer style={{
       marginTop: `2rem`
     }}>
-      <div>Life is like a box of chocolates. If I fits, I sit.</div>
+      <div>Life is like a box of chocolates. If I fits, I sits.</div>
       © {new Date().getFullYear()}, Griffindor Cat Law.
     </footer>
   )
