@@ -74,11 +74,13 @@ export default class index extends Component {
         :
         <span />
       }
+      <div>
+      <span role="img" aria-label="index-pointing-down- emoji">👇</span>
       <AniLink  
         className="link"
         cover
         to={"/quiz"}
-        direction="up"
+        direction="down"
         duration={2}
         bg= 
           {`
@@ -90,7 +92,13 @@ export default class index extends Component {
             content-box      
             #8abca2      
           `}
-      >Go here for more fun</AniLink>
+      >
+       
+        Go here for more fun
+       
+      </AniLink>
+      <span role="img" aria-label="index-pointing-down- emoji"> 👇</span>
+      </div>
     </div>
     )
   }
