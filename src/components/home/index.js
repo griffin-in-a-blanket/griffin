@@ -3,6 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import raccoon from '../../images/raccoon.png'
 import griffin from '../../images/griffin-0.jpg'
+import {start} from '../../utils'
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       cover
       to={"/makeup"}
       direction="up"
+      onClick={start}
+
       duration={2}
       bg={`
         url(${griffin})
