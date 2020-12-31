@@ -17,6 +17,7 @@ export default function Home() {
       to={"/makeup"}
       direction="up"
       onClick={start}
+
       duration={2}
       bg={`
         url(${griffin})

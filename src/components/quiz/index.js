@@ -22,6 +22,21 @@ export default class index extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+export default class index extends Component {
+  constructor() {
+    super() 
+    this.state = {
+      questionsList: [],
+      choice: '',
+      correct: [],
+      answered: [],
+      modalIsOpen: false,
+      currentIdx: 0,
+    }
+    this.handleClick = this.handleClick.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
   componentDidMount() {
     this.setState({questionsList: [questions[0]]})
   }
@@ -109,6 +124,7 @@ export default class index extends Component {
         direction="left"
         duration={2}
         onClick={start}
+
         bg={`
           url(${griffin})
           center / contain 

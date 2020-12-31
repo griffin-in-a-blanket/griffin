@@ -32,9 +32,9 @@ export default function Makeup() {
         #8abca2      
       `}
       >
-         
         Griffin Facts 
        
+
       </AniLink>
       <span role="img" aria-label="index-pointing-right-emoji"> 👉</span>
       </div>

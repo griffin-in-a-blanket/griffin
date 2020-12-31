@@ -3,6 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import {answer, griffinTraits, traits} from '../constants';
 import {start} from '../../utils'
+
 import griffin from '../../images/griffin-2.jpg'
 
 export default class index extends Component {
@@ -64,6 +65,7 @@ export default class index extends Component {
             {trait}
           </button>
         ))}
+
       </div>
       <button className="btn learn-more" onClick={()=> {this.handleSubmit()}}>Submit</button>
       {submit ? 
@@ -101,6 +103,7 @@ export default class index extends Component {
       </AniLink>
       <span role="img" aria-label="index-pointing-down- emoji"> 👇</span>
       </div>
+
     </div>
     )
   }
