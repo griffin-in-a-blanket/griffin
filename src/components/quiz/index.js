@@ -6,22 +6,6 @@ import griffin from '../../images/griffin-3.jpg'
 import {questions} from '../constants'
 import {start} from '../../utils'
 
-
-export default class index extends Component {
-  constructor() {
-    super() 
-    this.state = {
-      questionsList: [],
-      choice: '',
-      correct: [],
-      answered: [],
-      modalIsOpen: false,
-      currentIdx: 0,
-    }
-    this.handleClick = this.handleClick.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
 export default class index extends Component {
   constructor() {
     super() 

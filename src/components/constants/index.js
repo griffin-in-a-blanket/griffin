@@ -48,3 +48,4 @@ export const questions= [
     'img': paw,
     'alt': "Illustration of a cat paw (BEANS!) in all it's glory."
   }
+]
