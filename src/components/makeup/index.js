@@ -13,10 +13,12 @@ export default function Makeup() {
         <div>beans</div>
         <div>sass</div>
       </div>
+      <div>
+      <span role="img" aria-label="index-pointing-right- emoji">👉</span>
       <AniLink 
       cover
       to={"/facts"}
-      direction="right"
+      direction="left"
       duration={2}
       bg={`
         url(${griffin})
@@ -28,8 +30,10 @@ export default function Makeup() {
         #8abca2      
       `}
       >
-        Griffin Facts
+        Griffin Facts 
       </AniLink>
+      <span role="img" aria-label="index-pointing-right-emoji"> 👉</span>
+      </div>
     </div>
   )
 }

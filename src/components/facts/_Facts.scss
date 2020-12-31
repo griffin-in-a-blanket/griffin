@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 100px 0;
+  padding: 50px 0 100px 0;
+
 
   .traits-container {
     display: flex;
@@ -17,22 +18,21 @@
       margin: 10px;
       background: rgba(255, 255, 255, 0.35);
       border-radius: 7.5px;
-      transition: all 0.2s ease-in;
+      transition: all 0.1s ease-in;
+
       color: $main;
 
       &:hover {
         background: rgba(255, 255, 255, 0.55);
+        color: $accent2;
       }
     }
   }
-  .btn {
-    padding: 15px 30px;
-    border-radius: 7.5px;
-    color: #fff;
-    background: $accent;
-  }
 
   .result {
-    margin: 40px 0;
+    margin-bottom: 40px;
   }
+
+  .link {
+    margin-bottom: 40px;
 }

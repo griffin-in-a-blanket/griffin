@@ -11,9 +11,10 @@ export default function Home() {
       <img className="home-image" alt="it's griffin the cat" src={raccoon} />
       <div className="subtitle">He's a cat, I think <span role="img" aria-label="thinking-emoji">🤔</span></div>
       <AniLink 
+      className="home-link"
       cover
       to={"/makeup"}
-      direction="left"
+      direction="up"
       duration={2}
       bg={`
         url(${griffin})
@@ -24,7 +25,11 @@ export default function Home() {
         content-box      
         #8abca2      
       `}>
-        <button className="learn-more">Learn More</button>
+        <button className="learn-more">
+          <span role="img" aria-label="index-pointing-up-emoji">☝️</span>
+            Learn More
+          <span role="img" aria-label="index-pointing-up- emoji"> ☝️</span>
+        </button>
       </AniLink>
     </div>
   )

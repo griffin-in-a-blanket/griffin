@@ -74,19 +74,32 @@ export default class index extends Component {
         :
         <span />
       }
-      <AniLink  cover
-      to={"/quiz"}
-      direction="up"
-      duration={2}
-      bg={`
-        url(${griffin})
-        center / contain 
-        no-repeat        
-        fixed            
-        padding-box      
-        content-box      
-        #8abca2      
-      `}>Go here for more fun</AniLink>
+      <div>
+      <span role="img" aria-label="index-pointing-down- emoji">👇</span>
+      <AniLink  
+        className="link"
+        cover
+        to={"/quiz"}
+        direction="down"
+        duration={2}
+        bg= 
+          {`
+            url(${griffin})
+            center / contain 
+            no-repeat        
+            fixed            
+            padding-box      
+            content-box      
+            #8abca2      
+          `}
+      >
+       
+        Go here for more fun
+       
+      </AniLink>
+      <span role="img" aria-label="index-pointing-down- emoji"> 👇</span>
+      </div>
+
     </div>
     )
   }
