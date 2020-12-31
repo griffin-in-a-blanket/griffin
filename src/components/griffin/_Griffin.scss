@@ -1,0 +1,63 @@
+$white: #f3e5d3; 
+$black: #2b292a;
+
+
+@mixin eye() {
+  position: absolute;
+  height: 10%;
+  width: 15%;
+  top: 24%;
+  border-radius: 50%;
+  background-color: $white;
+}
+
+@mixin pupil() {
+  position: absolute;
+  height: 75%;
+  width: 40%;
+  border-radius: 50%;
+  background-color: $black;
+  transition: all .1s linear;
+  transform: translateY(15%) translateX(70%);
+}
+
+.griffin {  
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-image: url(../images/griffin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .r-eye {
+    @include eye();
+    right: 20%;
+
+    .r-pupil {
+      @include pupil();
+    }
+  }
+
+  .l-eye {
+    @include eye();
+    left: 30%;
+
+    .l-pupil {
+      @include pupil();
+    }
+  }
+
+  &:hover {
+    .r-pupil {
+      width: 60%;
+      height: 80%;
+      left: -10%;
+    }
+
+    .l-pupil {
+      width: 60%;
+      height: 80%;
+      left: -10%;
+    }
+  }
+}

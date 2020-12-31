@@ -1,15 +1,15 @@
 import React from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-import raccoon from '../../images/raccoon.png'
 import griffin from '../../images/griffin-0.jpg'
+import Griffin from '../griffin'
 import {start} from '../../utils'
 
 export default function Home() {
   return (
     <div className="home-container">
       <div className="title">It's a website about Griffin!</div>
-      <img className="home-image" alt="it's griffin the cat" src={raccoon} />
+      <Griffin />
       <div className="subtitle">He's a cat, I think <span role="img" aria-label="thinking-emoji">🤔</span></div>
       <AniLink 
       className="home-link"
