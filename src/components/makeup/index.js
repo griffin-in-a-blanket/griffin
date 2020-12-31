@@ -2,6 +2,7 @@ import React from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import griffin from '../../images/griffin-1.jpg'
+import {start} from '../../utils'
 
 export default function Makeup() {
   return (
@@ -13,11 +14,14 @@ export default function Makeup() {
         <div>beans</div>
         <div>sass</div>
       </div>
+      <div>
+      <span role="img" aria-label="index-pointing-right- emoji">👉</span>
       <AniLink 
       cover
       to={"/facts"}
-      direction="right"
+      direction="left"
       duration={2}
+      onClick={start}
       bg={`
         url(${griffin})
         center / contain 
@@ -28,8 +32,12 @@ export default function Makeup() {
         #8abca2      
       `}
       >
-        <a className="learn-more">Griffin Facts</a>
+        Griffin Facts 
+       
+
       </AniLink>
+      <span role="img" aria-label="index-pointing-right-emoji"> 👉</span>
+      </div>
     </div>
   )
 }

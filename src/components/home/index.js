@@ -3,17 +3,21 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import griffin from '../../images/griffin-0.jpg'
 import Griffin from '../griffin'
+import {start} from '../../utils'
 
 export default function Home() {
   return (
     <div className="home-container">
       <div className="title">It's a website about Griffin!</div>
       <Griffin />
-      <div className="subtitle">He's a cat, I think 🤔</div>
+      <div className="subtitle">He's a cat, I think <span role="img" aria-label="thinking-emoji">🤔</span></div>
       <AniLink 
+      className="home-link"
       cover
       to={"/makeup"}
-      direction="left"
+      direction="up"
+      onClick={start}
+
       duration={2}
       bg={`
         url(${griffin})
@@ -24,7 +28,11 @@ export default function Home() {
         content-box      
         #8abca2      
       `}>
-        <button className="learn-more">Learn More</button>
+        <button className="learn-more">
+          <span role="img" aria-label="index-pointing-up-emoji">☝️</span>
+            Learn More
+          <span role="img" aria-label="index-pointing-up- emoji"> ☝️</span>
+        </button>
       </AniLink>
     </div>
   )

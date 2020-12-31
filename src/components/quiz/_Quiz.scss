@@ -3,5 +3,85 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 100px 0;
+  padding: 50px 0 100px 0;
+  position: relative;
+
+  .questions-container {
+    margin-bottom: 40px;
+  
+    .question-container {
+      margin-top: 40px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .question {
+        font-size: 1.3em;
+        font-weight: 600;
+        line-height: 1.5em;
+        margin-left: 10px;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        .answers-container {
+          display: flex;
+          flex-wrap: wrap;
+  
+          .answer {
+            width: 40%;
+            min-width: 300px;
+            padding: 15px 30px;
+            border-radius: 7.5px;
+            text-align: left;
+            color: $main;
+            margin: 10px;
+            background: rgba(255, 255, 255, 0.35);
+            transition: all 0.1s ease-in;
+
+            &:hover {
+              background: $main;
+              color: #fff;
+            }
+          }
+        }
+        .answer-img {
+          height: 150px;
+          width: 150px;
+
+          &:hover {
+            animation: wiggle .92s cubic-bezier(.36,.07,.19,.97) both;
+          }
+        }
+      
+      }
+      .excerpt {
+        margin-left: 10px;
+        color: $accent2;
+      }
+    }
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
