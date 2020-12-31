@@ -31,7 +31,7 @@ const Griffin = () => {
   }
 
   return (
-    <div className="griffin">
+    <div className="griffin" role="img" alt="a drawing of griffin with eyes that follows your mouse">
       <div className="r-eye">
         <div className="r-pupil"/>
       </div>
