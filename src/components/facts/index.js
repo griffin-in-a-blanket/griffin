@@ -73,6 +73,9 @@ export default class index extends Component {
           <div className="subtitle">
             {answer[score]}
           </div>
+          <div className="context">
+            Let me tell you about Griffin. He is a <span className="keyword">affectionate</span> boi who prefers to be in a room with someone. After getting his head scritches, he goes to sleep for hours (gotta conserve energy for those 4AM runs). He loves new visitors, although there is a limit of 2 or he will be overwhelmed. He will poke you in the morning with his paw to get attention and after he is satisfied, he goes to sleep again. At night, he runs to every window to look at the raccoons outside. Tis the simple life of Griffin.
+          </div>
         </div> 
         :
         <span />
@@ -97,9 +100,7 @@ export default class index extends Component {
             #8abca2      
           `}
       >
-       
         Go here for more fun
-       
       </AniLink>
       <span role="img" aria-label="index-pointing-down- emoji"> 👇</span>
       </div>

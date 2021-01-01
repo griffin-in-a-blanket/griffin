@@ -10,7 +10,7 @@ export default function Home() {
     <div className="home-container">
       <div className="title">It's a website about Griffin!</div>
       <Griffin />
-      <div className="subtitle">He's a cat, I think <span role="img" aria-label="thinking-emoji">🤔</span></div>
+      <div className="subtitle">Chonky cat or just floof? <span role="img" aria-label="thinking-emoji">🤔</span></div>
       <AniLink 
       className="home-link"
       cover

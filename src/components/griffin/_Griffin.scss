@@ -17,7 +17,7 @@ $black: #2b292a;
   width: 40%;
   border-radius: 50%;
   background-color: $black;
-  transition: all .1s linear;
+  transition: all .1s ease-in;
   transform: translateY(15%) translateX(70%);
 }
 
@@ -25,6 +25,7 @@ $black: #2b292a;
   position: relative;
   height: 200px;
   width: 200px;
+  margin: 20px 0;
   background-image: url(../images/griffin.png);
   background-size: contain;
   background-repeat: no-repeat;

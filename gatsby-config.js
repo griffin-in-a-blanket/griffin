@@ -5,6 +5,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+            trackingId: ``,
+            head: true,
+            anonymize: true,
+        },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
