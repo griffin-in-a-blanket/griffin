@@ -19,8 +19,13 @@
       background: rgba(255, 255, 255, 0.35);
       border-radius: 7.5px;
       transition: all 0.1s ease-in;
-
       color: $main;
+
+      @include mobile {
+        margin: 5px;
+        padding: 10px 25px;
+        border-radius: 5px;
+      }
 
       &:hover {
         background: rgba(255, 255, 255, 0.55);
@@ -31,10 +36,25 @@
 
   .result {
     margin-bottom: 40px;
+
+    .context {
+      line-height: 1.5em;
+      margin: 0 20px;
+      margin-top: 20px;
+      text-align: justify;
+
+      @include mobile {
+        margin: 20px 0 0 0;
+      }
+    }
   }
 
   .link {
     margin-bottom: 40px;
-
+  }
 }
+
+.keyword {
+  font-weight: 600;
+  color: $accent2;
 }

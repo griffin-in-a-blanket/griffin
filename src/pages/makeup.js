@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Makeup from '../components/makeup'
+import Makeup from "../components/makeup"
 
 const MakeupPage = () => (
   <Layout>

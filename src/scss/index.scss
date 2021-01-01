@@ -29,7 +29,6 @@ body {
   margin: 0 auto;
   max-width: 1060px;
   padding: 0 1.0875rem 1.45rem;
-
 }
 
 a {
@@ -118,6 +117,10 @@ button {
   font-size: 2.5em;
   font-weight: 700;
   text-align: center;
+
+  @include mobile {
+    font-size: 2.1em;
+  }
 }
 
 .subtitle {
@@ -125,6 +128,11 @@ button {
   line-height: 1.5em;
   font-weight: 500;
   text-align: center;
+  
+  @include mobile {
+    line-height: normal;
+    font-size: 1.4em;
+  }
  }
 
 
