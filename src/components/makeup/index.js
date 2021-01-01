@@ -2,18 +2,15 @@ import React from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import griffin from '../../images/griffin-1.jpg'
+import diagram from '../../images/griff.png'
 import {start} from '../../utils'
 
 export default function Makeup() {
   return (
     <div className="makeup-container">
-      <div className="title">What is he made out of?</div>
-      <div className="ingredients">
-        <div>50% floof</div>
-        <div>Raccoon</div>
-        <div>beans</div>
-        <div>sass</div>
-      </div>
+      <div className="title">Anatomy of Griffin</div>
+
+      <img src={diagram} className="diagram" />
       <div>
       <span role="img" aria-label="index-pointing-right- emoji">👉</span>
       <AniLink 
