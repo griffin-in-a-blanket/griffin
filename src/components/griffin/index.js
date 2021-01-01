@@ -1,12 +1,11 @@
 import React, {useEffect} from "react"
 
 const Griffin = () => {
-
   useEffect(() => {
     const rEye = document.querySelector(".r-eye")
     const rPupil = document.querySelector(".r-pupil")
     const lPupil = document.querySelector(".l-pupil")
-
+    
     if (rEye) {
       const px = rPupil.getBoundingClientRect().width
       const py = rPupil.getBoundingClientRect().height
@@ -30,9 +29,8 @@ const Griffin = () => {
   
       document.addEventListener("mousemove", followMouse, false)
     }
-    
   })
-
+  
   return (
     <div
       className="griffin"
