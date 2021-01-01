@@ -3,7 +3,8 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-import griffin from "../../images/griffin-1.jpg";
+
+import griffin from "../../images/griffin1.jpg"
 import { start } from "../../utils"
 
 

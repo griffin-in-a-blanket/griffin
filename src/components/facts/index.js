@@ -4,7 +4,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { answer, griffinTraits, traits } from "../constants"
 import { start } from "../../utils"
 
-import griffin from "../../images/griffin-2.jpg"
+import griffin from "../../images/griffin2.jpg"
 
 export default class index extends Component {
   constructor() {
