@@ -4,10 +4,15 @@
   justify-content: center;
   flex-direction: column;
   padding: 50px 0 100px 0;
-}
 
-img.diagram {
-  height: 65vh;
-  margin: 40px 0;
+  .diagram {
+    width: 550px;
+    height: auto;
+    margin: 40px 0;
 
+    @include mobile {
+      width: 100%;
+    }
+
+  }
 }

@@ -2,17 +2,19 @@ module.exports = {
   siteMetadata: {
     title: `I'm a cat`,
     description: `This is a website of a little cat named Griffin who has touched the lives of dozens of people.`,
-    author: `Lily Li`,
+    author: `griffin-in-a-blanket`,
+    url: `https://griffin-cat.netlify.app/`,
+    image: `/preview.png`,
   },
   plugins: [
-    //   {
-    //     resolve: `gatsby-plugin-google-analytics`,
-    //     options: {
-    //         trackingId: `UA-123`,
-    //         head: true,
-    //         anonymize: true,
-    //     },
-    // },
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+            trackingId: `UA-178028561-4`,
+            head: true,
+            anonymize: true,
+        },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
