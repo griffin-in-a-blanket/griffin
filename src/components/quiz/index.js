@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Modal from "react-modal"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import griffin from "../../images/griffin-3.jpg"
+import griffin from "../../images/griffin3.jpg"
 import { questions } from "../constants"
 import { start } from "../../utils"
 
