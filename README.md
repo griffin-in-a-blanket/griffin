@@ -5,6 +5,7 @@
 </p>
 
 <p align='center'>Howdy, partner.</p>
+
 # Welcome to [Griffin's Website](https://griffin-cat.netlify.app/)
 
 ## About
