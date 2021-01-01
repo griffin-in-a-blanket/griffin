@@ -22,15 +22,17 @@ We love our pets and want everybody to know how special their little guy is. We 
 
 With everything going on in the world, Gatsby provided us an excuse to make a website about our cat. It was a lot of fun and we hope others will enjoy it as well.
 
-
 ### Criteria
+
 - Creativity
 - Accessibility
 - Performance
 - Silliness
 
 ## Future
+
 - TODO
 
 ## Acknowledgements
+
 - TODO

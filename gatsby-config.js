@@ -7,13 +7,13 @@ module.exports = {
     image: `/preview.png`,
   },
   plugins: [
-      {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-            trackingId: `UA-178028561-4`,
-            head: true,
-            anonymize: true,
-        },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-178028561-4`,
+        head: true,
+        anonymize: true,
+      },
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
