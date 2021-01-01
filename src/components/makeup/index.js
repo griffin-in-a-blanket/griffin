@@ -1,7 +1,7 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import griffin from "../../images/griffin-1.JPG"
+import griffin from "../../images/griffin-1.jpg"
 import diagram from "../../images/griff.png"
 import { start } from "../../utils"
 
