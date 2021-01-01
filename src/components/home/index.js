@@ -31,7 +31,7 @@ export default function Home() {
         <button className="learn-more">
           <span role="img" aria-label="index-pointing-up-emoji">☝️</span>
             Learn More
-          <span role="img" aria-label="index-pointing-up- emoji"> ☝️</span>
+          <span role="img" aria-label="index-pointing-up-emoji"> ☝️</span>
         </button>
       </AniLink>
     </div>
