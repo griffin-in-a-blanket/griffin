@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: `I'm a cat`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `This is a website of a little cat named Griffin who has touched the lives of dozens of people.`,
+    author: `Lily Li`,
   },
   plugins: [
-      {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-            trackingId: ``,
-            head: true,
-            anonymize: true,
-        },
-    },
+    //   {
+    //     resolve: `gatsby-plugin-google-analytics`,
+    //     options: {
+    //         trackingId: `UA-123`,
+    //         head: true,
+    //         anonymize: true,
+    //     },
+    // },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {

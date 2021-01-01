@@ -15,8 +15,8 @@ export default function Makeup() {
       <span role="img" aria-label="index-pointing-right- emoji">👉</span>
       <AniLink 
       cover
-      to={"/facts"}
-      direction="left"
+      to={"/quiz"}
+      direction="down"
       duration={2}
       onClick={start}
       bg={`

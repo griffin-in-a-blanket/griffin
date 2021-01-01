@@ -85,8 +85,8 @@ export default class index extends Component {
       <AniLink  
         className="link"
         cover
-        to={"/quiz"}
-        direction="down"
+        to={"/makeup"}
+        direction="left"
         duration={2}
         onClick={start}
         bg= 

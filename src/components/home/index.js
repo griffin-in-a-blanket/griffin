@@ -14,7 +14,7 @@ export default function Home() {
       <AniLink 
       className="home-link"
       cover
-      to={"/makeup"}
+      to={"/facts"}
       direction="up"
       onClick={start}
 
