@@ -10,7 +10,7 @@ export default function Makeup() {
     <div className="makeup-container">
       <div className="title">Anatomy of Griffin</div>
 
-      <img src={diagram} className="diagram" />
+      <img src={diagram} className="diagram" alt="what is griffin made out of"/>
       <div>
       <span role="img" aria-label="index-pointing-right- emoji">👉</span>
       <AniLink 
