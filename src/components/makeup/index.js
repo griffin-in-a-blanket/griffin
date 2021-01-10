@@ -30,7 +30,7 @@ export default function Makeup() {
       />
       <div>
         <span role="img" aria-label="index-pointing-down- emoji">
-        👇
+          👇
         </span>
         <AniLink
           cover

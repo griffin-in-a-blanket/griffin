@@ -187,8 +187,14 @@ export default class index extends Component {
                     D. {q["D"]}
                   </button>
                 </div>
-                  <img className={`answer-img ${answered[q.id] ? `active` : `default`}`} src={q["img"]} alt={q.alt} />
-                  </div>
+                <img
+                  className={`answer-img ${
+                    answered[q.id] ? `active` : `default`
+                  }`}
+                  src={q["img"]}
+                  alt={q.alt}
+                />
+              </div>
               <div className="excerpt">
                 {answered[q.id] ? `${q.excerpt}` : ""}
               </div>
@@ -197,7 +203,7 @@ export default class index extends Component {
         </div>
         <div>
           <span role="img" aria-label="index-pointing-up- emoji">
-          ☝️
+            ☝️
           </span>
           <AniLink
             cover
