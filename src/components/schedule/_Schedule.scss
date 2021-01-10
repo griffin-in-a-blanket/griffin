@@ -1,0 +1,59 @@
+.schedule-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  min-height: 100vh;
+
+  .diagram {
+    width: 150px;
+    height: auto;
+    margin: 40px 0;
+  }
+
+  .schedule {
+    margin-bottom: 40px;
+    padding: 0;
+    line-height: 2.5em;
+    columns: 2;
+
+    @include mobile {
+      columns: 1;
+    }
+
+    li {
+      list-style: none;
+      padding: 7.5px;
+
+      @include mobile {
+        padding: 5px 0;
+      }
+    }
+  }
+}
+
+.time {
+  font-family: 'Space Mono', monospace;  
+  background: $main;
+  color: $base;
+  padding: 10px;
+  margin: 10px 5px 10px 0px;
+  border-radius: 8px;
+  font-weight: 600;
+
+  @include mobile {
+    margin: 10px 0;
+  }
+}
+
+.gray {
+  background: $gray;
+}
+
+.food {
+  background: $accent2;
+}
+
+.play {
+  background: $accent;
+}
