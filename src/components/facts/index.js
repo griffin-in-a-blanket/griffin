@@ -105,8 +105,8 @@ export default class index extends Component {
           <span />
         )}
         <div>
-          <span role="img" aria-label="index-pointing-down- emoji">
-            👇
+          <span role="img" aria-label="index-pointing-right- emoji">
+            👉
           </span>
           <AniLink
             className="link"
@@ -127,9 +127,9 @@ export default class index extends Component {
           >
             Go here for more fun
           </AniLink>
-          <span role="img" aria-label="index-pointing-down- emoji">
+          <span role="img" aria-label="index-pointing-right- emoji">
             {" "}
-            👇
+            👉
           </span>
         </div>
       </div>

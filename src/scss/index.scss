@@ -4,6 +4,7 @@
 @import '../components/home/Home';
 @import '../components/facts/Facts';
 @import '../components/makeup/Makeup';
+@import '../components/schedule/Schedule';
 @import '../components/quiz/Quiz';
 @import '../components/griffin/Griffin';
 
@@ -14,7 +15,7 @@ html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 * {
   cursor: url("../images/cursor.png"), auto;
 }
