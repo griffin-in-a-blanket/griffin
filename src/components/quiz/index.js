@@ -187,12 +187,8 @@ export default class index extends Component {
                     D. {q["D"]}
                   </button>
                 </div>
-                {answered[q.id] ? (
-                  <img className="answer-img" src={q["img"]} alt={q.alt} />
-                ) : (
-                  <div className="answer-img" />
-                )}
-              </div>
+                  <img className={`answer-img ${answered[q.id] ? `active` : `default`}`} src={q["img"]} alt={q.alt} />
+                  </div>
               <div className="excerpt">
                 {answered[q.id] ? `${q.excerpt}` : ""}
               </div>
@@ -200,13 +196,13 @@ export default class index extends Component {
           ))}
         </div>
         <div>
-          <span role="img" aria-label="index-pointing-left- emoji">
-            👈
+          <span role="img" aria-label="index-pointing-up- emoji">
+          ☝️
           </span>
           <AniLink
             cover
             to={"/"}
-            direction="left"
+            direction="up"
             duration={2}
             onClick={start}
             bg={`
@@ -221,9 +217,9 @@ export default class index extends Component {
           >
             Start this journey over
           </AniLink>
-          <span role="img" aria-label="index-pointing-left-emoji">
+          <span role="img" aria-label="index-pointing-up-emoji">
             {" "}
-            👈
+            ☝️
           </span>
         </div>
       </div>

@@ -3,7 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import griffin from "../../images/griffin1.jpg"
+import griffin from "../../images/griffin4.jpg"
 import { start } from "../../utils"
 
 export default function Makeup() {
@@ -29,12 +29,12 @@ export default function Makeup() {
         alt="what griffin is made out of. floof and boops."
       />
       <div>
-        <span role="img" aria-label="index-pointing-right- emoji">
-          👉
+        <span role="img" aria-label="index-pointing-down- emoji">
+        👇
         </span>
         <AniLink
           cover
-          to={"/quiz"}
+          to={"/schedule"}
           direction="down"
           duration={2}
           onClick={start}
@@ -48,11 +48,11 @@ export default function Makeup() {
         #8abca2      
       `}
         >
-          Griffin Facts
+          Griffin Schedule
         </AniLink>
-        <span role="img" aria-label="index-pointing-right-emoji">
+        <span role="img" aria-label="index-pointing-down-emoji">
           {" "}
-          👉
+          👇
         </span>
       </div>
     </div>

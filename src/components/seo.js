@@ -96,4 +96,3 @@ SEO.propTypes = {
 }
 
 export default SEO
-gi
