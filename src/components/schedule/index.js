@@ -110,7 +110,6 @@ export default function Schedule() {
         url(${griffin})
         center / contain 
         no-repeat        
-        fixed            
         padding-box      
         content-box      
         #8abca2      
