@@ -35,6 +35,16 @@ export default class index extends Component {
     const { desired, submit } = this.state
     if (submit) return
     let score = 0
+    if (desired.length === 16) {
+      score = 4
+      this.setState({ submit: true, score})
+      return;
+    }
+    if (desired.length === 0) {
+      score = 5
+      this.setState({ submit: true, score})
+      return;
+    }
     if (desired.lastIndexOf("i don't like cats") > -1) {
       score = 0
       this.setState({ submit: true, score })
@@ -59,12 +69,13 @@ export default class index extends Component {
       <div className="facts-container">
         <div className="title">Will I like Griffin?</div>
         <div className="subtitle">
-          Let's find out! What's your ideal cat companion?
+          Let's find out! Who's your ideal cat companion?
         </div>
         <div className="traits-container">
           {traits.map((trait, i) => (
             <button
               className="trait"
+              disabled={submit ? true : false}
               key={i}
               onClick={() => this.handleClick(trait)}
               style={{

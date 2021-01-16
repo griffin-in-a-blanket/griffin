@@ -6,7 +6,9 @@ export const answer = [
   "No! You will not like Griffin. This is impossible, Griffin is great.",
   "You will find Griffin tolerable. He has some of the qualities you are looking for!",
   "Yes, you will probably get along with Griffin and maybe become best friends.",
-  "Yes, you will love Griffin and he is your ideal cat. You should steal him.",
+  "Yes, you will love Griffin and he is your ideal cat. You should steal him. He lives at 123 Fake Street.",
+  "...You just wanted the click on all the buttons didn't you (≖_≖ )",
+  "Well I'm just going to talk about Griffin anyway."
 ]
 
 export const traits = [
