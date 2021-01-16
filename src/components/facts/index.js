@@ -4,7 +4,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { answer, griffinTraits, traits } from "../constants"
 import { start } from "../../utils"
 
-import griffin from "../../images/griffin2.jpg"
+import griffin from "../../images/griffin4.jpg"
 
 export default class index extends Component {
   constructor() {
@@ -89,7 +89,7 @@ export default class index extends Component {
         {submit ? (
           <div className="result">
             <div className="subtitle">{answer[score]}</div>
-            <div className="context">
+            <div className='context'>
               Let me tell you about Griffin. He is a{" "}
               <span className="keyword">affectionate</span> boi who prefers to
               be in a room with someone. After getting his head scritches, he
@@ -102,7 +102,7 @@ export default class index extends Component {
             </div>
           </div>
         ) : (
-          <span />
+          <div className="result" />
         )}
         <div>
           <span role="img" aria-label="index-pointing-right- emoji">

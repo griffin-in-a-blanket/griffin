@@ -1,0 +1,22 @@
+.whoops-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  min-height: 100vh;
+
+  .whoops-image {
+    min-width: 300px;
+    width: 50%;
+    margin: 40px 0;
+
+    @include mobile {
+      width: 100%;
+      min-width: 0px;
+    }
+  }
+  
+  .margin {
+    margin-bottom: 20px;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-import griffin from "../../images/griffin0.jpg"
+import griffin from "../../images/griffin.jpg"
 import Griffin from "../griffin"
 import { start } from "../../utils"
 
@@ -16,6 +16,7 @@ export default function Home() {
           🤔
         </span>
       </div>
+      <div className="caption">*pssst* Move the laser to Griffin's face  ✧/ᐠ-ꞈ-ᐟ\ </div>
       <AniLink
         className="home-link"
         cover
