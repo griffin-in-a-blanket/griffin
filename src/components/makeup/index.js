@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 
-import griffin from "../../images/griffin4.jpg"
+import griffin from "../../images/griffin2.jpg"
 import { start } from "../../utils"
 
 export default function Makeup() {
