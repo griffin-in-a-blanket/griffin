@@ -9,7 +9,7 @@ import { start } from "../../utils"
 export default function NotFound() {
   const data = useStaticQuery(graphql`
     query {
-      griff: file(relativePath: { eq: "business-cat.jpg" }) {
+      business: file(relativePath: { eq: "business-cat.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1023) {
             ...GatsbyImageSharpFluid
@@ -18,14 +18,14 @@ export default function NotFound() {
       }
     }
   `)
-  const griff = data.griff.childImageSharp.fluid
+  const business = data.business.childImageSharp.fluid
   return (
     <div className="whoops-container">
       <div className="title">404  /ᐠ ̞  ‸  ̞ᐟ\ﾉ</div>
       <div className="subtitle">
         Whoa! What are you doing here?? Can't a business cat get some privacy.
       </div>
-      <Img className="whoops-image" fluid={griff} alt="business cat filling out spreadsheets"/>
+      <Img className="whoops-image" fluid={business} alt="business cat filling out spreadsheets"/>
       <div className="subtitle margin">You owe Griffin a treat.</div>
       <AniLink
         className="home-link"
