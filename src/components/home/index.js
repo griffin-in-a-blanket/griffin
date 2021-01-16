@@ -17,6 +17,7 @@ export default function Home() {
         </span>
       </div>
       <div className="caption">*pssst* Move the laser to Griffin's face  ✧/ᐠ-ꞈ-ᐟ\ </div>
+      <div className="mobile-caption">*pssst* Press Griffin's face ✧/ᐠ-ꞈ-ᐟ\</div>
       <AniLink
         className="home-link"
         cover

@@ -20,7 +20,23 @@
     font-weight: 200;
     color: $accent2;
     font-size: small;
+
+    @include mobile {
+      display: none;
+    }
   }
+
+  .mobile-caption{
+    display: none;
+
+    @include mobile {
+      display: inherit;
+      font-weight: 200;
+      color: $accent2;
+      font-size: small;
+    }
+  }
+
   .home-link {
     border: none;
     padding-bottom: 0px;
